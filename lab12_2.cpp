@@ -33,6 +33,7 @@ void checkWinner(int p, int y){
 	cout << "\n---------------------------------\n";
 }
 
+
 int main(){	
 	int playerScore, yugiScore, playerAction, yugiAction;
 	int playerCards[3] = {drawCard(), drawCard(), 0};
